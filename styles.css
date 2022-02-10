@@ -24,7 +24,7 @@ header {
     color: #6070ff;
     line-height: 20px;
     letter-spacing: 0;
-    margin: 58px 24px;
+    margin: 58px 24px 32px 24px;
     width: 76px;
     height: 20px;
 }
@@ -33,6 +33,39 @@ header {
     color: #6070ff;
     width: 18px;
     height: 12px;
-    margin: 62px 35px;
+    margin: 62px 35px 42px 35px;
 }
+
+.elipse-8 {
+  display: inline-block;
+  margin: 0 146px 18px 214px;
+}
+
+.elipse-8 img {
+  background: #ffffff;
+  border: 1px solid #cbcdff;
+}
+
+.rectangle-6 {
+  display: inline-block;
+  margin-top: -60px;
+  position: absolute;
+}
+
+.rectangle-7 {
+  display: inline-block;
+  margin-top: -10px;
+  margin-left: 128px;
+  border: 2px solid yellowgreen;
+}
+
+.rect-7,
+.elipse-5 {
+  padding-right: 0;
+}
+
+.elipse-5 {
+  margin-right: -14px;
+}
+
 }
