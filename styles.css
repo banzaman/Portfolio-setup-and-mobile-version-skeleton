@@ -1,6 +1,6 @@
 * {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
 }
 
 header {
@@ -8,30 +8,31 @@ header {
   justify-content: space-between;
 }
 
-@media only screen and (min-width:601px) {
-  .vectors, .mylogo {
+@media only screen and (min-width: 601px) {
+  .vectors,
+  .mylogo {
     display: none;
   }
 }
 
-@media only screen and (max-width:600px) {
+@media only screen and (max-width: 600px) {
   .mylogo {
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
-    color: #6070FF;
+    color: #6070ff;
     line-height: 20px;
-    letter-spacing: 0em;
+    letter-spacing: 0;
     margin: 58px 24px;
     width: 76px;
     height: 20px;
-  }
+}
   
   .vectors {
-    color: #6070FF;
+    color: #6070ff;
     width: 18px;
     height: 12px;
     margin: 62px 35px;
-  }
+}
 }
