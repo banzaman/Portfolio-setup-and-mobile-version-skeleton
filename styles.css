@@ -8,15 +8,15 @@ header {
   justify-content: space-between;
 }
 
-@media only screen and (min-width: 601px) {
-  .vectors,
-  .mylogo,
-  main {
-    display: none;
+@media only screen and (max-width: 375px),
+only screen and (max-height: 718px) {
+  * {
+    margin: 0;
+    padding: 0;
+    max-width: 375px;
+    max-width: 718px;
   }
-}
 
-@media only screen and (max-width: 600px) {
   .mylogo {
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
@@ -25,7 +25,7 @@ header {
     color: #6070ff;
     line-height: 20px;
     letter-spacing: 0;
-    margin: 58px 24px 32px 24px;
+    margin: 58px 24px 26px 24px;
     width: 76px;
     height: 20px;
 }
@@ -34,6 +34,62 @@ header {
     color: #6070ff;
     width: 18px;
     height: 12px;
-    margin: 62px 35px 42px 35px;
+    align-self: flex-end;
+    margin: 62px 35px 36px 35px;
 }
+
+main {
+  width: 375px;
+  height: 718;
+}
+
+.main-section1 {
+  background-image: url("/Images/header-shapes-mobile.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.primary-text {
+  font-family: 'Poppins', sans-serif;
+  margin: 97px 24px 12px 24px;
+  color: #172b4d;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  width: 327px;
+  height: 150px;
+}
+
+.para-text {
+  margin: 0 24px 12px 24px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  width: 327px;
+  height: 146px;
+}
+
+.let-us-connect {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  margin: 0 234px 12px 24px;
+  color: #7f8cff;
+  line-height: 24px;
+  width: 125px;
+  height: 24px;
+}
+
+.social-media-icons {
+  width: 170.17px;
+  height: 20px;
+  margin: 0 180.83px 100px 24px;
+}
+
 }
