@@ -78,4 +78,24 @@ header {
   width: 170.17px;
   height: 20px;
   margin: 0 180.83px 100px 24px;
+  display: flex;
+  list-style-type: none;
+}
+
+.fa,
+.fab {
+  width: 19.99px;
+  height: 19.96px;
+  font-size: 24px;
+  color: #505F79;
+}
+
+.fa-linkedin,
+.fa-angellist {
+  margin-left: 19.01px;
+}
+
+.fa-medium,
+.fa-github {
+  margin-left: 20px;
 }
