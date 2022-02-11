@@ -29,6 +29,7 @@ header {
     width: 76px;
     height: 20px;
   }
+  
   .vectors {
     color: #6070ff;
     width: 18px;
@@ -36,10 +37,12 @@ header {
     align-self: flex-end;
     margin: 62px 35px 36px 35px;
   }
+
   main {
     width: 375px;
     height: 616px;
   }
+
   .main-section1 {
     background-image: url("/Images/header-shapes-mobile.png");
     background-repeat: no-repeat;
@@ -60,6 +63,7 @@ header {
     width: 327px;
     height: 150px;
   }
+
   .para-text {
     margin: 0 24px 12px 24px;
     font-family: 'Poppins', sans-serif;
@@ -71,6 +75,7 @@ header {
     width: 327px;
     height: 146px;
   }
+
   .let-us-connect {
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
@@ -80,6 +85,7 @@ header {
     width: 125px;
     height: 24px;
   }
+
   .social-media-icons {
     width: 170.17px;
     height: 20px;
