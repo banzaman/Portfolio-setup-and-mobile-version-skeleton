@@ -104,9 +104,14 @@ header {
 
 .work-section {
   display: grid;
+  grid-column-gap: 88px;
+  margin-bottom: 114px;
 }
 
-.work-card-1 {
+.work-card-1,
+.work-card-2,
+.work-card-3,
+.work-card-4 {
   display: flex;
   flex-direction: column;
   padding: 16px;
@@ -119,6 +124,24 @@ header {
 
 .snapshot-portfolio {
   background-image: url('Images/Snapshoot-Portfolio.png');
+}
+
+.snapshot-portfolio-2 {
+  background-image: url('Images/Snapshoot-Portfolio-2.png');
+}
+
+.snapshot-portfolio-3 {
+  background-image: url('Images/Snapshoot-Portfolio-3.png');
+}
+
+.snapshot-portfolio-4 {
+  background-image: url('Images/Snapshoot-Portfolio-4.png');
+}
+
+.snapshot-portfolio,
+.snapshot-portfolio-2,
+.snapshot-portfolio-3,
+.snapshot-portfolio-4 {
   background-repeat: no-repeat;
   background-size: cover;
   height: 220px;
@@ -126,11 +149,33 @@ header {
   border-radius: 8px;
 }
 
-.project-title h1 {
+.project-title h1,
+.project-title-3 h1 {
+  font-weight: bold;
+  height: 36px;
+}
+
+.project-title-2,
+.project-title-4 {
+  width: 295px;
+  height: 332px;
+}
+
+.project-title-2 h1,
+.project-title-4 h1 {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
-  font-weight: bold;
+  
+  height: 80px;
+  font-weight: 700;
   font-size: 32px;
+  padding-right: 50px;
+}
+
+.project-title h1,
+.project-title-2,
+.project-title-3 h1,
+.project-title-4 {
   line-height: 44px;
   color: #172b4d;
   height: 36px;
@@ -185,12 +230,71 @@ header {
 
 .pry-text {
   color: #344563;
-  border: 2px solid yellowgreen;
   width: 295px;
   height: 76px;
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
+  line-height: 24px;
+  margin-bottom: 12PX;
+}
+
+.tags {
+  display: flex;
+  align-items: center;
+  width: 203px;
+  height: 24px;
+  padding: 0;
+}
+
+.tags-link {
+  color: #6070ff;
+  width: 29px;
+  height: 16px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  margin-right: 8px;
+  padding: 4px 12px;
+  line-height: 16px;
+  text-decoration: none;
+  background-color: #ebebff;
+  border-radius: 8px;
+}
+
+.css-tag {
+  width: 21px;
+}
+
+.js-tag {
+  width: 65px;
+}
+
+.action-btn {
+  width: 295px;
+  height: 72px;
+  margin: 12px 0;
+}
+
+.btn {
+  border: 1px solid #6070ff;
+  width: 124px;
+  height: 48px;
+  border-radius: 8px;
+  padding: 12px;
+  margin: 12px 0 12px 0;
+}
+
+.btn p {
+  color: #396df2;
+  width: 100px;
+  height: 24px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  text-align: center;
   line-height: 24px;
 }
