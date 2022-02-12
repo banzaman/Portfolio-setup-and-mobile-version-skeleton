@@ -295,6 +295,16 @@ header {
   margin: 12px 0 12px 0;
 }
 
+.btn-2 {
+  border: 1px solid #6070ff;
+  background-color: #fff;
+  color: #396df2;
+  width: 162px;
+  height: 48px;
+  border-radius: 8px;
+  padding: 12px;
+}
+
 .btn:hover,
 .btn-2:hover {
   background-color: #6070ff;
@@ -380,7 +390,6 @@ header {
 
 .lists-fa {
   width: 40px;
-  width: 40px;
   border-radius: 8px;
   padding: 8px;
   margin: 0;
@@ -398,16 +407,6 @@ header {
 .action-btn-2 {
   width: 295px;
   height: 72px;
-}
-
-.btn-2 {
-  border: 1px solid #6070ff;
-  background-color: #fff;
-  color: #396df2;
-  width: 162px;
-  height: 48px;
-  border-radius: 8px;
-  padding: 12px;
 }
 
 .btn-2 span {
@@ -452,17 +451,16 @@ li .langs {
   display: inline-block;
   width: 237px;
   height: 24px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
   color: #000;
-  margin: 24px 26px 0 12px;
+  margin: 24px 26px 23px 12px;
 }
 
 li .down-arrow {
-  /*border: 2px solid #acb7c3;*/
   width: 12px;
   height: 6px;
 }
@@ -496,7 +494,7 @@ li .down-arrow {
   margin: 21px 12px 21.72px 0;
 }
 
-.lang-frame-2, 
+.lang-frame-2,
 .lang-frame-3 {
   width: 327px;
   height: 72px;
@@ -508,10 +506,8 @@ hr,
   width: 327px;
   height: 1px;
   margin-bottom: 12px;
-  visibility: hidden;
 }
 
 .hr-line {
   visibility: visible;
-  margin-top: 23px;
 }
