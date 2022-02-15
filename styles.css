@@ -523,6 +523,7 @@ footer {
 footer div {
   display: flex;
   flex-direction: column;
+  align-items: center;
   background-color: #6070ff;
   background-image: url('/Images/contact-form-shapes-mobile.svg');
   background-repeat: no-repeat;
@@ -532,10 +533,15 @@ footer div {
 }
 
 footer div h1 {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  margin-top: 103px;
+  text-align: center;
   border: 2px solid red;
   color: #fff;
-  margin: 0 auto;
   width: 801px;
   height: 56px;
-  align-self: center;
 }
