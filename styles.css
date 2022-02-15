@@ -523,6 +523,9 @@ footer {
 footer div {
   border: 2px solid red;
   background-color: #6070ff;
+  background-image: url('/Images/contact-form-shapes-mobile.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
   border-top-left-radius: 75px;
   height: 779px;
 }
