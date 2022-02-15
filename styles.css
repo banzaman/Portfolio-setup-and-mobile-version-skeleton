@@ -545,3 +545,17 @@ footer div h1 {
   width: 801px;
   height: 56px;
 }
+
+footer p {
+  width: 327px;
+  height: 102px;
+  text-align: justify;
+  margin: 12px 24px 87px 24px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #EBEBFF;
+}
