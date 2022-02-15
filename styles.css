@@ -514,3 +514,15 @@ hr,
 .hr-line {
   visibility: visible;
 }
+
+footer {
+  background-color:#fff;
+  width: 375px;
+}
+
+footer div {
+  border: 2px solid red;
+  background-color: #6070ff;
+  border-top-left-radius: 75px;
+  height: 779px;
+}
