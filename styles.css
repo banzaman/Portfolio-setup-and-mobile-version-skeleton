@@ -608,6 +608,7 @@ button {
   width: 140px;
   height: 48px;
   margin: 0 211px 11px 24px;
+  border: none;
   border-radius: 8px;
   padding: 12px 14px;
   font-family: 'Poppins', sans-serif;
