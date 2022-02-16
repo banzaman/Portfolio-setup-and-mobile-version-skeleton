@@ -516,7 +516,7 @@ hr,
 }
 
 footer {
-  background-color:#fff;
+  background-color: #fff;
   width: 375px;
 }
 
@@ -533,7 +533,7 @@ footer div {
   background-size: cover;
 }
 
-footer div h1 {
+.formheader {
   width: 375px;
   height: 56px;
   color: #fff;
