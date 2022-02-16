@@ -540,7 +540,6 @@ footer {
 }
 
 .formheader {
-  border: 2px solid greenyellow;
   width: 375px;
   height: 56px;
   color: #fff;
@@ -561,10 +560,9 @@ footer {
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
-  border: 2px solid red;
   line-height: 28px;
   color: #fff;
-  margin: 12px 24px 57px 24px;
+  margin: 12px 24px 87px 24px;
   text-align: center;
 }
 
@@ -575,12 +573,22 @@ form {
 
 input {
   font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
   width: 327px;
   height: 48px;
+  border: none;
   border-radius: 8px;
-  margin: 0 24px 18px 24px;
+  margin: 0 24px 20px 24px;
   padding: 15px 38px 15px 16px;
   box-sizing: border-box;
+  color: #172b4d;
+}
+
+input[type=email] {
+  margin: 0 24px 18px 24px;
 }
 
 textarea {
@@ -593,6 +601,7 @@ textarea {
   border-radius: 8px;
   font-size: 15px;
   line-height: 24px;
+  color: #b3bac5;
 }
 
 button {
