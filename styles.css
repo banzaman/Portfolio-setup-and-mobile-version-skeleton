@@ -520,7 +520,7 @@ footer {
   width: 375px;
 }
 
-footer div {
+.form-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -528,9 +528,15 @@ footer div {
   width: 375px;
   height: 779px;
   border-top-left-radius: 75px;
+}
+
+.footer-bgimg {
+  position: absolute;
+  margin: 21px -43px 48.83px 153px;
   background-image: url('/Images/contact-form-shapes-mobile.svg');
   background-repeat: no-repeat;
-  background-size: cover;
+  width: 265px;
+  height: 709.17px;
 }
 
 .formheader {
@@ -539,10 +545,11 @@ footer div {
   color: #fff;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
-  font-weight: 700;
+  font-weight: bold;
   font-size: 40px;
   line-height: 52px;
   margin-top: 103px;
+  margin-bottom: 0;
   text-align: center;
 }
 
