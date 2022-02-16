@@ -534,7 +534,6 @@ footer div {
 }
 
 footer div h1 {
-<<<<<<< HEAD
   width: 375px;
   height: 56px;
   color: #fff;
@@ -545,25 +544,11 @@ footer div h1 {
   line-height: 52px;
   margin-top: 103px;
   text-align: center;
-=======
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 40px;
-  line-height: 52px;
-  margin-top: 103px;
-  text-align: center;
-  border: 2px solid red;
-  color: #fff;
-  width: 801px;
-  height: 56px;
->>>>>>> e582ee231b66ff31d06dc515ad8fde92eb930b9c
 }
 
 footer p {
   width: 327px;
   height: 102px;
-<<<<<<< HEAD
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -614,15 +599,4 @@ button {
   line-height: 24px;
   background-color: #fff;
   color: #6070ff;
-=======
-  text-align: justify;
-  margin: 12px 24px 87px 24px;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 28px;
-  text-align: center;
-  color: #EBEBFF;
->>>>>>> e582ee231b66ff31d06dc515ad8fde92eb930b9c
 }
