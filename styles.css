@@ -571,3 +571,14 @@ input {
   padding: 15px 38px 15px 16px;
   box-sizing: border-box;
 }
+
+textarea {
+  width: 327px;
+  height: 170px;
+  margin: 18px 24px 22px 24px;
+  padding: 15px 38px 15px 16px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  font-size: 15px;
+  line-height: 20px;
+}
