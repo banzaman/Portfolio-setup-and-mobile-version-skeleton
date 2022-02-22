@@ -1,8 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  max-width: 600px;
-  max-width: 718px;
 }
 
 body {
@@ -517,7 +515,6 @@ hr,
 
 footer {
   background-color: #fff;
-  width: 375px;
 }
 
 .form-container {
@@ -525,14 +522,13 @@ footer {
   flex-direction: column;
   align-items: center;
   background-color: #6070ff;
-  width: 375px;
   height: 779px;
   border-top-left-radius: 75px;
 }
 
 .footer-bgimg {
   position: absolute;
-  margin: 21px -43px 48.83px 153px;
+  margin: 21px 0 48.83px 153px;
   background-image: url('/Images/contact-form-shapes-mobile.svg');
   background-repeat: no-repeat;
   width: 265px;
@@ -540,7 +536,6 @@ footer {
 }
 
 .formheader {
-  width: 375px;
   height: 56px;
   color: #fff;
   font-family: 'Poppins', sans-serif;
@@ -632,7 +627,6 @@ button:focus {
 }
 
 .shapes {
-  width: 375px;
   height: 34px;
 }
 
