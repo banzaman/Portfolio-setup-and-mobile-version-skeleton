@@ -14,7 +14,7 @@ header {
 }
 
 .mylogo {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -49,7 +49,7 @@ header {
 }
 
 .primary-text {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   margin: 97px 24px 12px 24px;
   color: #172b4d;
   font-weight: bold;
@@ -61,7 +61,7 @@ header {
 
 .para-text {
   margin: 0 24px 12px 24px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: lighter;
   font-size: 16px;
@@ -72,7 +72,7 @@ header {
 }
 
 .let-us-connect {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
   margin: 0 234px 12px 24px;
   color: #7f8cff;
@@ -130,19 +130,19 @@ header {
 }
 
 .snapshot-portfolio {
-  background-image: url('Images/Snapshoot-Portfolio.png');
+  background-image: url("Images/Snapshoot-Portfolio.png");
 }
 
 .snapshot-portfolio-2 {
-  background-image: url('Images/Snapshoot-Portfolio-2.png');
+  background-image: url("Images/Snapshoot-Portfolio-2.png");
 }
 
 .snapshot-portfolio-3 {
-  background-image: url('Images/Snapshoot-Portfolio-3.png');
+  background-image: url("Images/Snapshoot-Portfolio-3.png");
 }
 
 .snapshot-portfolio-4 {
-  background-image: url('Images/Snapshoot-Portfolio-4.png');
+  background-image: url("Images/Snapshoot-Portfolio-4.png");
 }
 
 .snapshot-portfolio,
@@ -170,7 +170,7 @@ header {
 
 .project-title-2 h1,
 .project-title-4 h1 {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   height: 80px;
   font-weight: 700;
@@ -215,7 +215,7 @@ header {
 }
 
 .frame p.texts {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -238,7 +238,7 @@ header {
   color: #344563;
   width: 295px;
   height: 76px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -259,7 +259,7 @@ header {
   color: #6070ff;
   width: 29px;
   height: 16px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -323,7 +323,7 @@ header {
   text-decoration: none;
   width: 100px;
   height: 24px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -348,7 +348,7 @@ header {
 }
 
 .primary-text-2 {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   margin: 0 24px 12px 0;
   color: #172b4d;
   font-weight: bolder;
@@ -360,7 +360,7 @@ header {
 
 .para-text-2 {
   margin: 0 24px 12px 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: lighter;
   font-size: 16px;
@@ -371,7 +371,7 @@ header {
 }
 
 .let-us-connect-2 {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
   margin-right: 234px;
   color: #7f8cff;
@@ -412,7 +412,7 @@ header {
 
 .btn-2 span {
   text-decoration: none;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -452,7 +452,7 @@ li .langs {
   display: inline-block;
   width: 237px;
   height: 24px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -487,7 +487,7 @@ li .down-arrow {
 .lang-name {
   width: 215px;
   height: 24px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -528,8 +528,13 @@ footer {
 
 .footer-bgimg {
   position: absolute;
+<<<<<<< HEAD
   margin: 21px 0 48.83px 153px;
   background-image: url('/Images/contact-form-shapes-mobile.svg');
+=======
+  margin: 21px -43px 48.83px 153px;
+  background-image: url("/Images/contact-form-shapes-mobile.svg");
+>>>>>>> 20a6d26f88806a35357558a9e8b2c0077049c753
   background-repeat: no-repeat;
   width: 265px;
   height: 709.17px;
@@ -538,7 +543,7 @@ footer {
 .formheader {
   height: 56px;
   color: #fff;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
@@ -551,7 +556,7 @@ footer {
 .foot-text {
   width: 327px;
   height: 102px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -567,7 +572,7 @@ form {
 }
 
 input {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
@@ -582,12 +587,12 @@ input {
   color: #172b4d;
 }
 
-input[type=email] {
+input[type="email"] {
   margin: 0 24px 18px 24px;
 }
 
 textarea {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   width: 327px;
   height: 170px;
   margin: 0 24px 22px 24px;
@@ -606,7 +611,7 @@ button {
   border: none;
   border-radius: 8px;
   padding: 12px 14px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
