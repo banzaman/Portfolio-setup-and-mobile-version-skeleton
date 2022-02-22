@@ -31,4 +31,21 @@
   .dv-ls-nav a {
     text-decoration: none
   }
+
+  .main-section1 {
+      background: none;
+      background-color: #fff;
+      border: 3px solid black;
+      padding: 0 8px 76.54px 34.6px;
+      height: 916px;
+  }
+
+  .bgimg {
+      border: 2px solid red;
+      padding-top: 50px;
+      background-image: url('/Images/Headerbg.svg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 721.46px;
+  }
 }
