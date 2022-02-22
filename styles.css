@@ -13,6 +13,10 @@ header {
   background-color: #fff;
 }
 
+.dv-nav {
+  display: none;
+}
+
 .mylogo {
   font-family: "Poppins", sans-serif;
   font-size: 18px;
