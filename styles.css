@@ -528,16 +528,12 @@ footer {
 
 .footer-bgimg {
   position: absolute;
-<<<<<<< HEAD
-  margin: 21px 0 48.83px 153px;
-  background-image: url('/Images/contact-form-shapes-mobile.svg');
-=======
   margin: 21px -43px 48.83px 153px;
-  background-image: url("/Images/contact-form-shapes-mobile.svg");
->>>>>>> 20a6d26f88806a35357558a9e8b2c0077049c753
+  background-image: url('/Images/contact-form-shapes-mobile.svg');
   background-repeat: no-repeat;
-  width: 265px;
+  width: 220px;
   height: 709.17px;
+  border: 2px solid red;
 }
 
 .formheader {
