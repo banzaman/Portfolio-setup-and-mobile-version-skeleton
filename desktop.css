@@ -96,10 +96,16 @@
   .work-card-3,
   .work-card-4 {
     flex-direction: row-reverse;
+    border: 2px solid red;
+    height: 496px;
   }
 
   .snapshot-portfolio {
-    background-image: url("/Images/PortoflioCard/Snapshoot-Portfolio-1.svg");
+    background-image: url('Images/img-card-1.svg');
+  }
+
+  .snapshot-portfolio-2 {
+    background-image: url('Images/Snapshoot-Portfolio-2.png');
   }
 
   .snapshot-portfolio,
@@ -113,4 +119,50 @@
     border-radius: 8px;
   }
   
+  .about-me-section {
+    display: flex;
+    flex-direction: row;
+    padding: 142px 142px 0 142px;
+    height: 564px;
+    border: 2px solid yellowgreen;
+  }
+
+  .top {
+    margin: 0;
+    height: 392px;
+  }
+
+  .para-text-2 {
+    width: 327px;
+    height: 144px;
+  }
+
+  
+  .lang-frame {
+    height: 216px;
+  }
+
+  .lang-frame li,
+  .lang-frame-2 li,
+  .lang-frame-3 li {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+
+  li .langs {
+  width: 40vw;
+  }
+
+  hr,
+  .hr-line {
+    width: auto;
+  }
+
+  .lang-list {
+    display: flex;
+    flex: 1;
+    height: 144px;
+    border-radius: 4px;
+  }
 }

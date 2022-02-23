@@ -346,7 +346,6 @@ header {
 .top {
   display: flex;
   flex-direction: column;
-  width: 327px;
   height: 409px;
   margin: 114px 24px 24px 24px;
   padding: 0;
@@ -371,7 +370,6 @@ header {
   font-size: 16px;
   line-height: 24px;
   color: #344563;
-  width: 327px;
   height: 144px;
 }
 
@@ -429,13 +427,10 @@ header {
   display: flex;
   flex-direction: column;
   padding: 0;
-  width: 327px;
   height: 464.15px;
-  margin: 0 24px 113.85px 24px;
 }
 
 .lang-frame {
-  width: 327px;
   height: 320.15px;
 }
 
@@ -467,18 +462,15 @@ li .langs {
 }
 
 li .down-arrow {
-  width: 12px;
   height: 6px;
 }
 
 .lang-list {
-  width: 327px;
   height: 248.15px;
 }
 
 .lang-lists {
   display: flex;
-  width: 303px;
   height: 66.72px;
   background-color: #f7f7f9;
   margin: 12px;
@@ -490,7 +482,6 @@ li .down-arrow {
 }
 
 .lang-name {
-  width: 215px;
   height: 24px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -502,7 +493,6 @@ li .down-arrow {
 
 .lang-frame-2,
 .lang-frame-3 {
-  width: 327px;
   height: 72px;
 }
 
