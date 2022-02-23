@@ -63,6 +63,10 @@ header {
   height: 150px;
 }
 
+.dv-primary-text {
+  display: none;
+}
+
 .para-text {
   margin: 0 24px 12px 24px;
   font-family: "Poppins", sans-serif;
@@ -71,8 +75,6 @@ header {
   font-size: 16px;
   line-height: 24px;
   color: #344563;
-  width: 327px;
-  height: 146px;
 }
 
 .let-us-connect {
@@ -129,7 +131,6 @@ header {
   border-radius: 16px;
   border: 1px solid #dfe1e6;
   margin: 114px 24px 0 24px;
-  width: 327px;
   height: 552px;
 }
 
