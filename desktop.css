@@ -165,4 +165,25 @@
     height: 144px;
     border-radius: 4px;
   }
+
+  .form-container {
+    height: 846px;
+  }
+
+  .footer-bgimg {
+    border: 2px solid chartreuse;
+    background-image: url('Images/contact-desktop-bgimg.svg');
+    background-size: contain;
+    margin: 0;
+  }
+
+  .foot-text {
+    border: 2px solid fuchsia;
+    width: 569px;
+    margin-bottom: 12px;
+  }
+
+  .shapes {
+    display: none;
+  }
 }
