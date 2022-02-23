@@ -95,36 +95,84 @@
   .work-card-2,
   .work-card-3,
   .work-card-4 {
-    flex-direction: row-reverse;
+    flex-direction: row;
+    flex-grow: 1;
+    margin-right: 0;
+    margin-left: 0;
+    padding: 24px;
     border: 2px solid red;
-    height: 496px;
+    height: 450px;
   }
 
   .snapshot-portfolio {
-    background-image: url('Images/img-card-1.svg');
+    background-image: url("Images/PortoflioCard/dv-contact-bgimg.png");
   }
 
   .snapshot-portfolio-2 {
-    background-image: url('Images/Snapshoot-Portfolio-2.png');
+    background-image: url('Images/PortoflioCard/dv-cardimg-2.png');
+    order: 1;
+  }
+
+  .snapshot-portfolio-3 {
+    background-image: url("Images/PortoflioCard/dv-cardimg-3.png");
+  }
+
+  .snapshot-portfolio-4 {
+    background-image: url("Images/PortoflioCard/dv-cardimg-4.png");
+    order: 1;
   }
 
   .snapshot-portfolio,
   .snapshot-portfolio-2,
   .snapshot-portfolio-3,
   .snapshot-portfolio-4 {
-    background-repeat: repeat;
     background-size: contain;
-    height: 220px;
+    background-position: center;
+    width: 50%;
+    height: 446px;
+    margin-right: 22px;
     margin-bottom: 12px;
     border-radius: 8px;
+    border: 2px solid pink;
   }
-  
+
+  .project-title {
+    padding: 24px;
+    border: 2px solid brown;
+  }
+/*
+  .project-title h1,
+  .project-title-3 h1 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 52px;
+    height: 36px;
+  }
+
+  .frame {
+    display: flex;
+    justify-content: space-evenly;
+    width: 297px;
+    height: 40px;
+    margin-bottom: 12px;
+  }
+
+  .pry-text {
+    width: 496px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 12px;
+  }
+  */
+
   .about-me-section {
     display: flex;
     flex-direction: row;
     padding: 142px 142px 0 142px;
     height: 564px;
-    border: 2px solid yellowgreen;
   }
 
   .top {
@@ -171,16 +219,24 @@
   }
 
   .footer-bgimg {
-    border: 2px solid chartreuse;
     background-image: url('Images/contact-desktop-bgimg.svg');
     background-size: contain;
     margin: 0;
   }
 
   .foot-text {
-    border: 2px solid fuchsia;
     width: 569px;
     margin-bottom: 12px;
+  }
+
+  input,
+  textarea {
+    width: 447px;
+    height: 48px;
+  }
+
+  textarea {
+    height: 170px;
   }
 
   .shapes {
