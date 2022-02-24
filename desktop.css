@@ -1,78 +1,78 @@
 @media only screen and (min-width: 992px) {
   header {
-      align-items: baseline;
-      padding: 26px 142px 5px 155px;
+    align-items: baseline;
+    padding: 26px 142px 5px 155px;
   }
 
   .dv-logo {
-      margin-top: 0;
+    margin-top: 0;
   }
 
   nav img {
-      display: none;
+    display: none;
   }
 
   .dv-nav {
-      display: flex;
-      justify-content: space-between;
-      list-style: none;
-      width: 259px;
-      height: 40px;
-      font-family: 'Poppins',sans-serif;
-      font-style: normal;
-      font-weight: 500;
-      font-size: 15px;
-      line-height: 20px;
-      color: #344563;
-      padding: 10px 12px;;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 259px;
+    height: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #344563;
+    padding: 10px 12px;
   }
 
   .dv-ls-nav a {
-    text-decoration: none
+    text-decoration: none;
   }
 
   .main-section1 {
-      background: none;
-      background-color: #fff;
-      padding: 0 8px 76.54px 34.6px;
-      height: 916px;
+    background: none;
+    background-color: #fff;
+    padding: 0 8px 76.54px 34.6px;
+    height: 916px;
   }
 
   .bgimg {
-      display: flex;
-      flex-direction: column;
-      padding: 50px 252px 0 225.4px;
-      background-image: url('/Images/Headerbg.svg');
-      background-repeat: no-repeat;
-      background-size: contain;
-      background-position: center;
-      height: 721.46px;
-      margin-bottom: 76.54px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 252px 0 225.4px;
+    background-image: url('/Images/Headerbg.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 721.46px;
+    margin-bottom: 76.54px;
   }
 
   .primary-text {
-      display: none;
+    display: none;
   }
 
   .dv-primary-text {
-      display: block;
-      font-family: "Poppins", sans-serif;
-      font-style: normal;
-      margin-top: 241px;
-      margin-bottom: 12px;
-      color: #172b4d;
-      font-weight: 700;
-      font-size: 48px;
-      line-height: 60px;
-      letter-spacing: 0.37px;
+    display: block;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    margin-top: 241px;
+    margin-bottom: 12px;
+    color: #172b4d;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: 0.37px;
   }
 
   .dv-para-text {
-      margin: 0;
-      margin-bottom: 12px;
-      font-weight: 400;
-      font-size: 20px;
-      line-height: 28px;
+    margin: 0;
+    margin-bottom: 12px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
   }
 
   .dv-lets-connect {
@@ -88,7 +88,7 @@
   }
 
   .work-section {
-      padding: 0 142px;
+    padding: 0 142px;
   }
 
   .work-card-1,
@@ -155,14 +155,6 @@
     display: block;
   }
 
-  .frame {
-    display: flex;
-    justify-content: space-evenly;
-    width: 297px;
-    height: 40px;
-    margin-bottom: 12px;
-  }
-
   .pry-text {
     width: 31vw;
     height: 50px;
@@ -213,7 +205,7 @@
     color: #344563;
     width: 96px;
   }
-  
+
   .frame p.text-2 {
     font-size: 13px;
     margin-left: 12px;
@@ -221,13 +213,13 @@
     width: 122px;
     color: #7a869a;
   }
-  
+
   .frame p.text-3 {
     padding-left: 12px;
     width: 29px;
     color: #7a869a;
   }
-  
+
   .dv-frame p.texts {
     font-family: "Poppins", sans-serif;
     font-style: normal;
@@ -239,7 +231,7 @@
     padding-bottom: 8px;
     line-height: 16px;
   }
-  
+
   .dv-frame p.count {
     margin: 12px 0;
     border-radius: 50%;
@@ -297,7 +289,6 @@
     height: 144px;
   }
 
-  
   .lang-frame {
     height: 216px;
   }
@@ -311,7 +302,7 @@
   }
 
   li .langs {
-  width: 40vw;
+    width: 40vw;
   }
 
   hr,
