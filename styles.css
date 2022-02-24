@@ -167,6 +167,11 @@ header {
   height: 36px;
 }
 
+
+.project-title-3 .dv-h31 {
+  display: none;
+}
+
 .project-title-2,
 .project-title-4 {
   width: 295px;
@@ -251,6 +256,14 @@ header {
   margin-bottom: 12px;
 }
 
+.dv-ptxt {
+  display: none;
+}
+
+.dv-pry-text {
+  display: none;
+}
+
 .tags {
   display: flex;
   align-items: center;
@@ -274,6 +287,14 @@ header {
   text-decoration: none;
   background-color: #ebebff;
   border-radius: 8px;
+}
+
+.dv-frame {
+  display: none;
+}
+
+.ruby-tag {
+  display: none;
 }
 
 .css-tag {

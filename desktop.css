@@ -96,11 +96,8 @@
   .work-card-3,
   .work-card-4 {
     flex-direction: row;
-    flex-grow: 1;
     margin-right: 0;
     margin-left: 0;
-    padding: 24px;
-    border: 2px solid red;
     height: 450px;
   }
 
@@ -133,22 +130,29 @@
     margin-right: 22px;
     margin-bottom: 12px;
     border-radius: 8px;
-    border: 2px solid pink;
   }
 
-  .project-title {
+  .project-title,
+  .project-title-3 {
     padding: 24px;
-    border: 2px solid brown;
   }
-/*
+
   .project-title h1,
-  .project-title-3 h1 {
+  .project-title-3 .dv-h31 {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 40px;
     line-height: 52px;
     height: 36px;
+  }
+
+  .project-title-3 .mv-h1 {
+    display: none;
+  }
+
+  .project-title-3 .dv-h31 {
+    display: block;
   }
 
   .frame {
@@ -160,13 +164,121 @@
   }
 
   .pry-text {
-    width: 496px;
+    width: 31vw;
     height: 50px;
     font-size: 16px;
     line-height: 24px;
-    margin-bottom: 12px;
+    margin-bottom: 24px;
   }
-  */
+
+  .mv-ptxt {
+    display: none;
+  }
+
+  .dv-ptxt {
+    display: block;
+  }
+
+  .project-title-2,
+  .project-title-4 {
+    width: 50%;
+    height: 420px;
+    margin-right: 22px;
+    padding: 24px 24px 0 24px;
+  }
+
+  .project-title-2 h1,
+  .project-title-4 h1 {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    height: auto;
+    font-weight: 700;
+    font-size: 40px;
+    padding-right: 52px;
+  }
+
+  .frame {
+    display: none;
+  }
+
+  .dv-frame {
+    display: flex;
+    justify-content: space-between;
+    width: 320px;
+    height: 40px;
+    margin-bottom: 24px;
+  }
+
+  .frame p.text-1 {
+    color: #344563;
+    width: 96px;
+  }
+  
+  .frame p.text-2 {
+    font-size: 13px;
+    margin-left: 12px;
+    font-weight: normal;
+    width: 122px;
+    color: #7a869a;
+  }
+  
+  .frame p.text-3 {
+    padding-left: 12px;
+    width: 29px;
+    color: #7a869a;
+  }
+  
+  .dv-frame p.texts {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    height: 24px;
+    margin-bottom: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    line-height: 16px;
+  }
+  
+  .dv-frame p.count {
+    margin: 12px 0;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+    background-color: #c1c7d0;
+  }
+
+  .work-card-2 .pry-text {
+    display: none;
+  }
+
+  .dv-pry-text {
+    display: block;
+    color: #344563;
+    width: auto;
+    height: 70px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 24px;
+  }
+
+  .tags {
+    width: 316px;
+  }
+
+  .ruby-tag {
+    display: inline-block;
+    width: 81px;
+  }
+
+  .action-btn {
+    width: 295px;
+    height: 72px;
+    margin: 24px 0;
+  }
 
   .about-me-section {
     display: flex;
