@@ -29,6 +29,17 @@
     }
   }
 
+  .snapshot-portfolio {
+    width: 20%;
+    transition-property: width;
+    transition-duration: 4s;
+    transition-delay: 2s;
+  }
+
+  .snapshot-portfolio:hover {
+    width: 80%;
+  }
+
   nav img {
     display: none;
   }
