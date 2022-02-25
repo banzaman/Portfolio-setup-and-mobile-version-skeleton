@@ -11,6 +11,8 @@
   .dv-logo {
     animation-duration: 3s;
     animation-name: rotation;
+    animation-iteration-count: 2;
+    animation-timing-function: ease-in-out;
   }
 
   @keyframes rotation {
