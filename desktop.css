@@ -154,7 +154,7 @@
   }
 
   .snapshot-portfolio {
-    width: 20%;
+    width: 50%;
     transition-property: width;
     transition-duration: 4s;
     transition-delay: 2s;
