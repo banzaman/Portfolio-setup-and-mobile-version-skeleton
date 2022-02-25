@@ -8,6 +8,27 @@
     margin-top: 0;
   }
 
+  .dv-logo {
+    animation-duration: 3s;
+    animation-name: rotation;
+  }
+
+  @keyframes rotation {
+    from {
+      transform: rotate(2deg);
+      color: #ee45ff;
+    }
+
+    50% {
+      transform: rotate(180deg);
+      color: #e1f23d;
+    }
+
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
   nav img {
     display: none;
   }
