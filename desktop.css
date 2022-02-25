@@ -6,9 +6,6 @@
 
   .dv-logo {
     margin-top: 0;
-  }
-
-  .dv-logo {
     animation-duration: 3s;
     animation-name: rotation;
     animation-iteration-count: 2;
@@ -29,17 +26,6 @@
     to {
       transform: rotate(360deg);
     }
-  }
-
-  .snapshot-portfolio {
-    width: 20%;
-    transition-property: width;
-    transition-duration: 4s;
-    transition-delay: 2s;
-  }
-
-  .snapshot-portfolio:hover {
-    width: 80%;
   }
 
   nav img {
@@ -165,6 +151,17 @@
     margin-right: 22px;
     margin-bottom: 12px;
     border-radius: 8px;
+  }
+
+  .snapshot-portfolio {
+    width: 20%;
+    transition-property: width;
+    transition-duration: 4s;
+    transition-delay: 2s;
+  }
+
+  .snapshot-portfolio:hover {
+    width: 80%;
   }
 
   .project-title,
