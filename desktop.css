@@ -123,6 +123,13 @@
   }
 
   .snapshot-portfolio {
+    width: 50%;
+    transition-property: width;
+    transition-duration: 4s;
+    transition-delay: 2s;
+  }
+
+  .snapshot-portfolio {
     background-image: url("Images/PortoflioCard/dv-contact-bgimg.png");
   }
 
@@ -151,13 +158,6 @@
     margin-right: 22px;
     margin-bottom: 12px;
     border-radius: 8px;
-  }
-
-  .snapshot-portfolio {
-    width: 50%;
-    transition-property: width;
-    transition-duration: 4s;
-    transition-delay: 2s;
   }
 
   .snapshot-portfolio:hover {
