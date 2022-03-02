@@ -161,8 +161,8 @@ header {
   border-radius: 8px;
 }
 
-.project-title h1,
-.project-title-3 h1 {
+.project-title h2,
+.project-title-3 h2 {
   font-weight: bold;
   height: 36px;
 }
@@ -177,8 +177,8 @@ header {
   height: 332px;
 }
 
-.project-title-2 h1,
-.project-title-4 h1 {
+.project-title-2 h2,
+.project-title-4 h2 {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   height: 80px;
@@ -189,7 +189,7 @@ header {
 
 .project-title h1,
 .project-title-2,
-.project-title-3 h1,
+.project-title-3 h2,
 .project-title-4 {
   line-height: 44px;
   color: #172b4d;
