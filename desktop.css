@@ -123,14 +123,11 @@
   }
 
   .snapshot-portfolio {
+    background-image: url("Images/PortoflioCard/dv-contact-bgimg.png");
     width: 50%;
     transition-property: width;
     transition-duration: 4s;
     transition-delay: 2s;
-  }
-
-  .snapshot-portfolio {
-    background-image: url("Images/PortoflioCard/dv-contact-bgimg.png");
   }
 
   .snapshot-portfolio-2 {
