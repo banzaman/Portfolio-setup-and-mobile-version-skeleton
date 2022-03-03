@@ -166,7 +166,7 @@
     padding: 24px;
   }
 
-  .project-title h1,
+  .project-title h2,
   .project-title-3 .dv-h31 {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -208,8 +208,8 @@
     padding: 24px 24px 0 24px;
   }
 
-  .project-title-2 h1,
-  .project-title-4 h1 {
+  .project-title-2 h2,
+  .project-title-4 h2 {
     font-family: "Poppins", sans-serif;
     font-style: normal;
     height: auto;
